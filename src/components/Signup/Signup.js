@@ -74,7 +74,7 @@ const Signup = () => {
 
     try {
       // const response = await axios.post(`${window.location.origin}/api/signup`, formData);
-      const response = await fetch(`https://finsage-server-7qni0cur8-kalyanis-projects-94070667.vercel.app/api/signup`, {
+      const response = await fetch(`https://finsage-server.vercel.app/api/signup`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

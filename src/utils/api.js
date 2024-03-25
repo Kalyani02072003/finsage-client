@@ -2,7 +2,7 @@
 
 async function fetchUserProfile(token) {
     try {
-      const response = await fetch(`https://finsage-server-7qni0cur8-kalyanis-projects-94070667.vercel.app/api/user-profile`, {
+      const response = await fetch(`https://finsage-server.vercel.app/api/user-profile`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
