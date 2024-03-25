@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { styled } from '@mui/material/styles';
-import { Button, Card, CardContent, Grid, IconButton, Typography, TextField } from '@material-ui/core';
-import CloseIcon from '@material-ui/icons/Close';
+import { Button, Card, CardContent, Grid, IconButton, Typography, TextField } from '@mui/material';
+import CloseIcon from '@mui/icons-material/Close';
 import Navbar from '../HomePage/Navbar/Navbar';
 const finnhub = require('finnhub');
 

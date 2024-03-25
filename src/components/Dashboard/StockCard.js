@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Container, Grid, Card, CardContent, IconButton, Typography, TextField, Button, Dialog, DialogTitle, DialogContent, DialogActions } from '@material-ui/core';
-import CloseIcon from '@material-ui/icons/Close';
+import { Container, Grid, Card, CardContent, IconButton, Typography, TextField, Button, Dialog, DialogTitle, DialogContent, DialogActions } from '@mui/material';
+import CloseIcon from '@mui/icons-material/Close';
 import axios from 'axios';
 
 import { styled } from '@mui/material/styles';

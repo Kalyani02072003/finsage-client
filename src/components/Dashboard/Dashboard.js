@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Typography } from '@material-ui/core';
+import { Grid, Typography } from '@mui/material';
 import Navbar from '../HomePage/Navbar/Navbar';
 import Footer from '../HomePage/Footer/Footer';
 import { SymbolOverview, TickerTape } from "react-ts-tradingview-widgets";

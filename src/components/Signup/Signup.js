@@ -4,7 +4,7 @@ import { AccountCircle, Lock, Person, CalendarToday, Work } from '@mui/icons-mat
 import Logo from '../../Assets/darklogo.png';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { styled } from '@mui/material/styles';
+import { styled } from "@mui/system";
 
 const StyledTextField = styled(TextField)({
   '& label': {

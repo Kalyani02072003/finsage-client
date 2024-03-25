@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import TradingViewWidget from 'react-tradingview-widget';
+import { AdvancedRealTimeChart } from "react-ts-tradingview-widgets";
 
 const PlotTradingView = () => {
   const [chartData, setChartData] = useState([]);
@@ -35,7 +35,7 @@ const PlotTradingView = () => {
 
   return (
     <div style={{ height:'900px',maxWidth: '1200px', margin: 'auto', marginTop:'40px', marginBottom:'40px'}}>
-      <TradingViewWidget
+      <AdvancedRealTimeChart
         symbol="AAPL"
         interval="D"
         timezone="Etc/UTC"
