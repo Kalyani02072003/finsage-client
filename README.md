@@ -17,8 +17,7 @@ FinSage is a comprehensive financial application designed to streamline watchlis
 - **Deployment:** Vercel
 
 ## Server Github Repo 
-[Server Repo]((https://github.com/Kalyani02072003/finsage-server)https://github.com/Kalyani02072003/finsage-server>)
-
+[Server Repo](https://github.com/Kalyani02072003/finsage-server)
 ## Deployed At 
 [Website Link](https://finsage.vercel.app/)
 
