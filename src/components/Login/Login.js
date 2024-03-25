@@ -41,7 +41,7 @@ const LoginPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch(`http://localhost:5000/api/login`, {
+      const response = await fetch(`https://finsage-server-7qni0cur8-kalyanis-projects-94070667.vercel.app/api/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
